@@ -1,0 +1,36 @@
+.Card{
+    /* background-color: yellow; */
+    margin: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.511);
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    transition: transform 0.3s ease;
+    background-color: #2196f3;
+    color: white;
+}
+
+.Card .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Card .data .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Card .information .infoOfweather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card:hover {
+  transform: scale(1.02);
+}

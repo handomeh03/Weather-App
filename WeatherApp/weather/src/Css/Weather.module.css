@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.Weather{
+    /* background-color: red; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Roboto', sans-serif;
+}

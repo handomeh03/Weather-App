@@ -1,0 +1,17 @@
+.Header{
+    text-align: center;   
+}
+.Header h1{
+    color: #1976d2;
+    text-shadow: 1px 1px 10px white;
+}
+@media (min-width:426px) {
+    .Header h1{
+        font-size: 3rem;
+    }
+}
+@media (min-width:769px) {
+    .Header h1{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,26 @@
+.Serach{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+}
+.Serach input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    
+   
+}
+.Serach .button:hover{
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+}
+@media (min-width:426px) {
+    .Serach input{
+        width: 30%;
+    }
+}
